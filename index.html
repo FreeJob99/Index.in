@@ -3,20 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Auto Redirect</title>
-    <script type="text/javascript">
-        // Redirect immediately when the page loads
-       window.onload = function() {
-           window.location.href = "https://tinyurl.com/mppkw3ad"; // Change this to the link you want
-          
-          // window.location.href = "facebookreelads";
-       
-       };
-
-         
+    <title> Auto Redirect</title>
+    <script>
+        // Define two URLs
+        var url1 = "https://goto.now/HlC8i";
+        var url2 = "https://goto.now/PnumN";
+        
+        // Randomly choose one URL (50-50 chance) and redirect immediately
+        window.location.href = Math.random() < 0.5 ? url1 : url2;
     </script>
 </head>
 <body>
-    <!-- No content in the body -->
+    <p>Redirecting...</p>
 </body>
 </html>
